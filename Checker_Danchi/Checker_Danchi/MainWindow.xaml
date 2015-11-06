@@ -1,0 +1,22 @@
+﻿<Window x:Class="Chess_Danchi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chess_Danchi"
+        mc:Ignorable="d"
+        Title="Checkers Danchi" Height="650" Width="825" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow" BorderBrush="Black">
+    <Grid>
+        <Menu x:Name="NavBar" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="825" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}">
+            <MenuItem Header="File" Foreground="#FFFEFEFE" Height="20" Width="40" >
+                <MenuItem Header="Open" Foreground="Black"/>
+                <MenuItem Header="Save" Foreground="Black"/>
+            </MenuItem>
+            <MenuItem Header="Tool" Foreground="#FFFEFEFE"  Height="20" Width="40">
+                <MenuItem Header="Revert" Foreground="black"/>
+            </MenuItem>
+            <MenuItem Header="Help" Foreground="#FFFEFEFE" Height="20" Width="40">
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
